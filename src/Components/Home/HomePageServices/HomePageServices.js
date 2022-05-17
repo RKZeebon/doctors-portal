@@ -8,7 +8,7 @@ import treatment from '../../../assets/images/treatment.png'
 
 const HomePageServices = () => {
     return (
-        <div className='mb-16'>
+        <div className='mb-16 w-5/6 mx-auto'>
             <h3 className='text-secondary text-xl font-semibold text-center'>OUR SERVICES</h3>
             <div>
                 <h2 className='text-3xl font-semibold text-center'>Services We Provide</h2>

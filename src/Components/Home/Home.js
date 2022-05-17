@@ -1,14 +1,16 @@
 import React from 'react';
 import Banner from './Banner/Banner';
+import HomePageAppointment from './HomePageAppointment/HomePageAppointment';
 import HomePageServices from './HomePageServices/HomePageServices';
 import Info from './Info/Info';
 
 const Home = () => {
     return (
-        <div className='w-5/6 mx-auto'>
+        <div>
             <Banner />
             <Info />
             <HomePageServices />
+            <HomePageAppointment />
         </div>
     );
 };
