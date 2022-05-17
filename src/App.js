@@ -6,7 +6,7 @@ import Navbar from './SharedPages/Navbar';
 
 function App() {
   return (
-    <div>
+    <div className='text-accent'>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
