@@ -4,10 +4,14 @@ import appointment from '../../../assets/images/appointment.png'
 
 const ContactUs = () => {
 
+    const handleSubmit = event => {
+        event.preventDefault()
+    }
+
     return (
         <div style={{
             background: `url(${appointment})`
-        }} className="mb-24 pb-20" >
+        }} className="mb-24 pb-16" >
             <div className='w-5/6 mx-auto'>
                 <div className='text-center pt-16 pb-8'>
                     <h3 className='text-secondary text-2xl '>Contact Us</h3>
@@ -15,7 +19,7 @@ const ContactUs = () => {
                 </div>
 
                 <div>
-                    <form className='flex flex-col lg:w-2/5 mx-auto gap-4'>
+                    <form onSubmit={handleSubmit} className='flex flex-col lg:w-2/5 mx-auto gap-4'>
                         <input className='rounded-xl py-4 text-lg pl-5' placeholder='Your Email' type="email" name="" id="" />
                         <input className='rounded-xl py-4 text-lg pl-5' placeholder='Subject' type="text" name="" id="" />
                         <textarea className='rounded-xl py-4 text-lg pl-5' placeholder='Your message' name="message" id="" cols="50" rows="5"></textarea>
