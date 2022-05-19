@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from './Banner/Banner';
+import ContactUs from './ContactUs/ContactUs';
 import HomePageAppointment from './HomePageAppointment/HomePageAppointment';
 import HomePageServices from './HomePageServices/HomePageServices';
 import Info from './Info/Info';
@@ -13,6 +14,7 @@ const Home = () => {
             <HomePageServices />
             <HomePageAppointment />
             <Testimonials />
+            <ContactUs />
         </div>
     );
 };
